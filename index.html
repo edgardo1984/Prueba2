@@ -1,0 +1,125 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplic. Web de jQuery Mobile</title>
+<link href="jquery.mobile.theme-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery.mobile-1.0.min.js" type="text/javascript"></script>
+</head> 
+<body> 
+
+<div data-role="page" id="page">
+	<div data-role="header">
+		<h1>CINE EDGARDO</h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview" data-inset="true" data-theme="a">
+			<li data-role="list-divider" role="heading">Cartelera</li>
+			<li><a href="#IM3" data-transition="pop">IRONMAN 3</a></li>
+            <li><a href="#ST" data-transition="slidedown">STAR TREK 2</a></li>
+			<li><a href="#FF6" data-transition="slidedown">FAST AND FURIOUS 6</a></li>
+			<li><a href="#ELG" data-transition="slidedown">EL GRAN GATSBY</a></li>
+			<li><a href="#NN" data-transition="fade">PRÓXIMOS ESTRENOS</a></li>
+		</ul>		
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<h4>NOTAS</h4>
+	</div>
+</div>
+
+<div data-role="page" id="IM3">
+	<div data-role="header">
+      <a data-role="button" data-rel="back" data-direction="reverse">
+            Atras
+        </a>
+		<h1>Iron Man 3</h1>
+	</div>
+	<div data-role="content">	
+		Iron Man 3 es una película estadounidense sobre el superhéroe Iron Man, de Marvel Comics, producida por Marvel Studios y distribuida por Walt Disney Pictures. Es la secuela de Iron Man (2008) y Iron Man 2 (2010), y es la primera película con la que se dio inicio a la segunda fase del universo cinematográfico de Marvel, siendo el primer gran estreno de la franquicia después de The Avengers (2012) que fue la sexta y última película de la primera fase del ya mencionado universo cinematográfico.		
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<h4>Funciones 16:00 y 19:00</h4>
+	</div>
+</div>
+
+<div data-role="page" id="ST">
+	<div data-role="header">
+       <a data-role="button" data-rel="back" data-direction="reverse">
+            Atras
+        </a>
+		<h1>Star Trek 2 En la Obscuridad</h1>
+	</div>
+	<div data-role="content">
+		Star Trek II: The Wrath of Khan es una película de ciencia ficción estadounidense ubicada dentro del universo ficticio de Star Trek creado por Gene Roddenberry. Es la segunda película de la franquicia, y fue producida por Paramount Pictures.	
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<h4>Funciones 15:45, 17:20 y 22.00 hrs</h4>
+	</div>
+</div>
+
+<div data-role="page" id="FF6">
+	<div data-role="header">
+       <a data-role="button" data-rel="back" data-direction="reverse">
+            Atras
+        </a>
+		<h1>Fast and Furious 6</h1>
+	</div>
+	<div data-role="content">
+		Tras el golpe maestro que Dom (Diesel) y Brian (Walker) consiguieron en Río de Janeiro, el equipo tuvo que dispersarse alrededor del mundo para poder disfrutar de los 100 millones de dólares. Sin embargo, el hecho de no poder regresar a casa y vivir como fugitivos ha hecho que sus vidas se sientan incompletas. 
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<h4>Funciones 15:00, 18:00 y 21.00 hrs</h4>
+	</div>
+</div>
+
+<div data-role="page" id="ELG">
+	<div data-role="header">
+       <a data-role="button" data-rel="back" data-direction="reverse">
+            Atras
+        </a>
+		<h1>EL GRAN GATSBY</h1>
+	</div>
+	<div data-role="content">
+		La historia es la de Gatsby, un joven millonario con un pasado dudoso que no tiene enlaces con la sociedad que le rodea y nadie sabe cómo consiguió su fortuna (algunos creen que lo ganó vendiendo alcohol ilegalmente, o como asesino a sueldo). 
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<h4>Funciones 16:00, 19:20 y 20.30 hrs</h4>
+	</div>
+</div>
+
+<div data-role="page" id="NN">
+	<div data-role="header">
+		<h1>PROXIMOS ESTRENOS</h1>
+	</div>
+	<div data-role="content">
+     <div data-role="collapsible-set">
+            <div data-role="collapsible" data-collapsed="true">
+                <h3>
+                   Que paso ayer ? 3
+                </h3>
+                Fecha de estreno: 28 de Junio<br />
+      Genero: Comedia
+            </div>
+            <div data-role="collapsible-set">
+            <div data-role="collapsible" data-collapsed="true">
+                <h3>
+                   Superman
+                </h3>
+                Título: El hombre de acero
+ <br />
+País: USA <br />
+Estreno en USA: 14/06/2013 
+<br />
+      Genero: Accion          
+            </div>
+        </div>	
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<h4>ESPERALOS PROXIMAMENTE</h4>
+	</div>
+</div>
+
+</body>
+</html>
